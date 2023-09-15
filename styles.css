@@ -186,7 +186,7 @@ a{
     z-index:-9;
   }
 
-  @keyframes scaleImage {
+  /* @keyframes scaleImage {
 
     0%{
         /* filter:grayscale(0); */
@@ -205,17 +205,17 @@ a{
         /* filter:grayscale(0); */
     }
     
-  }
-  .icon-dots{
+  } */
+  /* .icon-dots{
     z-index:9;
     bottom:-1rem;
     right:0;
     animation-name:dotsAnimation;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-  }
+  } */
 
-  @keyframes dotsAnimation {
+  /* @keyframes dotsAnimation {
     0%{
         transform:translateY(0px);
     }
@@ -225,19 +225,19 @@ a{
     100%{
         transform: translateY(0px);
     }
-    
-  }
+     */
+  /* } */
 
-  .icon-cube{
+  /* .icon-cube{
     z-index:9;
     top:-0.8em;
     right:1em;
     animation-name: cubeRotate;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-  }
+  /* } */
 
-  @keyframes cubeRotate {
+  /* @keyframes cubeRotate {
     0%{
         transform: rotateY(0deg) translateY(0px);
     }
@@ -272,8 +272,8 @@ a{
     top:1.5em;
     left:-0.3em;
     animation:zigzagAnimation 5s ease-in infinite;
-  }
-
+  } */ */
+/* 
   @keyframes zigzagAnimation{
     50%{
         left:5%;
@@ -292,7 +292,7 @@ a{
         top:3%;
         left:48%
     }
-  }
+  } */
 
   .project-section{
     background-color: rgb(231,231,231);
